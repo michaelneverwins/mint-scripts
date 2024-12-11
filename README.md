@@ -1,7 +1,7 @@
 # mint-scripts
 Simple scripts for personal use on Linux Mint Cinnamon Edition.
 
-These were tested on Linux Mint 22 and whatever version of Cinnamon it uses, and I assume out of laziness that they do not strongly depend on my particular system configuration and will generally do what their names imply.
+These were tested on Linux Mint 22 and whatever version of Cinnamon it uses, and I assume out of laziness that they do not strongly depend on my particular system configuration and will generally do what their names imply on any Linux Mint 22 system with a Cinnamon desktop.
 
 However, the scripts in this repository come with no warranty of any kind. Use them at your own risk and take full responsibility. Frankly, you should just read them and understand what they are doing before running them, because they are all short and simple.
 
