@@ -13,13 +13,9 @@
 # setting on command, and all panels are toggled between these options at once,
 # because I only have one panel and don't care about multiple-panel set-ups but
 # I still wanted the script to be generally functional.
-current_autohide_setting="$(gsettings get org.cinnamon panels-autohide)"
-if [[ "${current_autohide_setting}" == *"false"* ]]
-then
-	pattern="s/false/true/g"
-else
-	pattern="s/true/false/g"
-fi
 gsettings set org.cinnamon panels-autohide "$(
-	sed ${pattern} <<< "${current_autohide_setting}"
+	gsettings get org.cinnamon panels-autohide \
+	| sed s/false/swap/g \
+	| sed s/true/false/g \
+	| sed s/swap/true/g
 )"
