@@ -1,5 +1,5 @@
 #!/bin/bash
-# The first Boolean value determines whether icons are shown in the primary
+# The first Boolean value determines whether icons are shown on the primary
 # monitor, while the second Boolean value determines whether icons are shown on
 # non-primary monitors. Therefore:
 #     'true::true' == "Show desktop icons on all monitors"
