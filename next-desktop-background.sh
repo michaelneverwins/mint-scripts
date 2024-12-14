@@ -8,4 +8,5 @@
 #     gsettings set org.cinnamon.desktop.background.slideshow random-order true
 # for those who cannot find the Backgrounds menu.
 gsettings set org.cinnamon.desktop.background.slideshow slideshow-enabled false
+sleep 0.1
 gsettings set org.cinnamon.desktop.background.slideshow slideshow-enabled true
