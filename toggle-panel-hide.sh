@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # The panels-autohide value is an array of strings such as
 #     ['1:false', '2:true']
 # In each string, the number before the colon selects a panel (of which there
