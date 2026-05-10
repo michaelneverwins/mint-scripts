@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # If there's an explicit "next background" command, I don't know what it is.
 # However, if the "random order" setting is enabled, then disabling and
 # re-enabling the slideshow will cause it to pick a new random image, which
